@@ -5,22 +5,22 @@ wclist:     .word 0
 schedv:     .space 32
 
 menu:       .asciiz "Colecciones de objetos categorizados\n" \
-            "1) Nueva categoría\n" \
-            "2) Siguiente categoría\n" \
-            "3) Listar categorías\n" \
-            "4) Borrar categoría actual\n" \
-            "5) Anexar objeto a categoría actual\n" \
-            "6) Listar objetos de categoría actual\n" \
-            "7) Borrar un objeto de la categoría actual\n" \
+            "1) Nueva categorÃ­a\n" \
+            "2) Siguiente categorÃ­a\n" \
+            "3) Listar categorÃ­as\n" \
+            "4) Borrar categorÃ­a actual\n" \
+            "5) Anexar objeto a categorÃ­a actual\n" \
+            "6) Listar objetos de categorÃ­a actual\n" \
+            "7) Borrar un objeto de la categorÃ­a actual\n" \
             "0) Salir\n"
 
 error:      .asciiz "Error: "
-catName:    .asciiz "Ingrese el nombre de una categoría: "
-selCat:     .asciiz "Se ha seleccionado la categoría: "
-noCat:      .asciiz "No hay categorías disponibles.\n"
-noCatToDelete: .asciiz "No hay categorías para borrar.\n"
+catName:    .asciiz "Ingrese el nombre de una categorÃ­a: "
+selCat:     .asciiz "Se ha seleccionado la categorÃ­a: "
+noCat:      .asciiz "No hay categorÃ­as disponibles.\n"
+noCatToDelete: .asciiz "No hay categorÃ­as para borrar.\n"
 objID:      .asciiz "Ingrese el ID del objeto a eliminar: "
-done:       .asciiz "Operación realizada con éxito.\n"
+done:       .asciiz "OperaciÃ³n realizada con Ã©xito.\n"
 
 .text
 .globl main
